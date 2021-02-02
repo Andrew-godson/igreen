@@ -81,13 +81,13 @@ app.post('/workerhead/pages/openticket.html', urlencodedParser, function (req, r
   var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'andyrocks373@gmail.com',
-      pass: 'ncwbynjfbpclezjk'
+      user: '#',
+      pass: '#'
     }
   });
   var mailOptions = {
-    from: 'andyrocks373@gmail.com',
-    to: 'andrewjebrajgodson.18ee@kct.ac.in',
+    from: '#',
+    to: '#',
     subject: 'Confirm if reported area cleaned',
     text: 'glad you contribute to the societies cleanliness',
     html:"<p>glad you contribute to the societies cleanliness'</p><submit value='close'>"
